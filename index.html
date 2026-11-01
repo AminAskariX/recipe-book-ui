@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>کتاب آشپزی | Recipe Book UI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <header><h1>🍲 کتاب آشپزی</h1><p>چند ایدهٔ ساده برای انتخاب غذای امروز؛ همهٔ داده‌ها در همین پروژه‌اند.</p></header>
+    <section class="filters" aria-label="فیلتر دستورها">
+      <label>جست‌وجو <input id="search" type="search" placeholder="نام یا مادهٔ اولیه"></label>
+      <label>دسته‌بندی <select id="category"><option value="all">همه</option></select></label>
+      <label>حداکثر زمان <select id="time"><option value="0">بدون محدودیت</option><option value="20">۲۰ دقیقه</option><option value="40">۴۰ دقیقه</option><option value="60">۶۰ دقیقه</option></select></label>
+    </section>
+    <p id="count" role="status" aria-live="polite"></p>
+    <section id="recipes" class="grid" aria-label="دستورها"></section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
