@@ -5,59 +5,55 @@
 <a id="فارسی"></a>
 ## 🇮🇷 فارسی
 
-ایدهٔ یک رابط کتاب آشپزی تعاملی با قابلیت فیلتر دستورها. این مخزن در حال حاضر فقط `README.md` و `LICENSE` دارد و پیاده‌سازی رابط هنوز در آن ثبت نشده است.
+کتاب آشپزی کوچک و قابل اجرا در مرورگر؛ برای پیدا کردن یک غذای مناسب با جست‌وجوی نام یا مواد اولیه، انتخاب دسته‌بندی و محدود کردن زمان آماده‌سازی.
 
-### 📌 وضعیت و گام بعد
+### ✨ امکانات
 
-برای اجرا یا مشاهدهٔ پیش‌نمایش فایلی وجود ندارد. پس از افزودن کد، راهنمای نصب، ساختار فایل‌ها و روش استفاده از فیلترها باید به این صفحه اضافه شود.
+- شش دستور نمونه در دسته‌های صبحانه، غذای اصلی و کنار غذا.
+- جست‌وجوی زنده در نام و مواد اولیه، همراه با فیلتر دسته و حداکثر زمان.
+- نمایش تعداد نتایج و پیام روشن برای جست‌وجوی بدون نتیجه.
+- رابط راست‌به‌چپ و واکنش‌گرا، بدون وابستگی خارجی یا مرحلهٔ ساخت.
 
-### 💡 ایدهٔ محصول
+### 🛠️ اجرا و توسعه
 
-هدف این مخزن ساخت صفحه‌ای است که بتوان در آن دستورهای آشپزی را مرور و بر اساس معیارهای مشخص فیلتر کرد. چنین رابطی می‌تواند برای دسته‌بندی غذاها، مقایسهٔ دستورها و پیدا کردن انتخاب مناسب یک وعده استفاده شود. این توصیف چشم‌انداز پروژه است و امکانات اجراشده را گزارش نمی‌کند.
+مخزن را دریافت و `index.html` را در مرورگر باز کنید. دستورها در آرایهٔ `recipes` در `app.js` تعریف شده‌اند؛ برای افزودن دستور جدید، نام، دسته، زمان به دقیقه، مواد و مراحل را با همان ساختار وارد کنید. `styles.css` ظاهر کارت‌ها و فیلترها را کنترل می‌کند.
 
-### 🧩 وضعیت فایل‌ها
+### 📌 دامنهٔ نسخهٔ فعلی
 
-| فایل | وضعیت |
-| --- | --- |
-| `README.md` | معرفی و نقشهٔ ادامهٔ کار |
-| `LICENSE` | شرایط MIT |
-
-> 🔎 هنوز دادهٔ دستور غذا، رابط کاربری، فیلتر یا دستور اجرا در مخزن وجود ندارد.
+این نسخه یک نمونهٔ محلی با داده‌های ثابت است؛ حساب کاربری، افزودن دستور از داخل صفحه و ذخیره‌سازی ابری ندارد. متن مراحل، راهنمای خلاصه است و زمان پخت می‌تواند بسته به مواد و روش متفاوت باشد.
 
 ### 👤 پدیدآورنده و حقوق نشر
 
-© م.امین عسکری (M. Amin Askari). [GitHub](https://github.com/AminAskariX) · [وب‌سایت](https://aminaskarix.ir)
+طراحی و برنامه‌نویسی: م. امین عسکری | [AminAskariX.ir](https://aminaskarix.ir)
 
 ### 📜 مجوز
 
-این پروژه تحت مجوز MIT منتشر شده است؛ متن کامل در [LICENSE](LICENSE) آمده است.
+MIT؛ متن کامل در [LICENSE](LICENSE) است.
 
 <a id="english"></a>
 ## 🇬🇧 English
 
-A planned interactive recipe-book interface with recipe filtering. This repository currently contains only `README.md` and `LICENSE`; the UI has not been committed.
+A small, runnable recipe browser for finding a meal by name or ingredient, narrowing by category, and setting a maximum preparation time.
 
-### 📌 Status and next step
+### ✨ Features
 
-There is no runnable app or preview yet. Once code is added, document setup, file layout, and filter behavior here.
+- Six sample recipes across breakfast, main dishes, and sides.
+- Live name/ingredient search plus category and time filters.
+- Result count, empty-state message, responsive right-to-left layout.
+- No external dependencies or build step.
 
-### 💡 Product idea
+### 🛠️ Run and extend
 
-The proposed interface would let people browse recipes and narrow them by defined filters. It could eventually help organize dishes, compare ideas, and choose a meal. This describes the project's direction rather than shipped functionality.
+Clone the repository and open `index.html` in a browser. Add entries to the `recipes` array in `app.js` using the same name, category, minutes, ingredients, and steps fields. Adjust the visual layout in `styles.css`.
 
-### 🧩 Current files
+### 📌 Current scope
 
-| File | Status |
-| --- | --- |
-| `README.md` | Project overview and next steps |
-| `LICENSE` | MIT terms |
-
-> 🔎 No recipe data, interface, filters, or run command are checked in yet.
+This is a local demo with static data. It does not provide accounts, in-page recipe authoring, or cloud storage. Preparation times and steps are illustrative.
 
 ### 👤 Author and copyright
 
-Copyright © M. Amin Askari (م.امین عسکری). [GitHub](https://github.com/AminAskariX) · [Website](https://aminaskarix.ir)
+Design and development: M. Amin Askari | [AminAskariX.ir](https://aminaskarix.ir)
 
 ### 📜 License
 
-This project is licensed under MIT. See [LICENSE](LICENSE) for the full terms.
+MIT; see [LICENSE](LICENSE).
