@@ -1,0 +1,10 @@
+:root{font-family:system-ui,sans-serif;color-scheme:light;background:#faf7f0;color:#252b24}
+*{box-sizing:border-box}body{margin:0}.wrap{max-width:1050px;margin:auto;padding:2rem 1rem}
+header{background:#e6f3df;padding:1.5rem;border-radius:1.3rem}
+h1{margin:0 0 .5rem}.filters{display:flex;flex-wrap:wrap;gap:1rem;margin:1.5rem 0}
+label{display:grid;gap:.4rem;flex:1;min-width:170px;font-weight:600}
+input,select{font:inherit;padding:.7rem;border:1px solid #9bac93;border-radius:.6rem;background:white}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem}
+article{background:white;border:1px solid #d6e1cf;border-radius:1rem;padding:1.2rem;box-shadow:0 5px 18px #26391a0c}
+article h2{margin-top:0}small{color:#52684b}ul{padding-right:1.2rem;line-height:1.8}
+.empty{grid-column:1/-1;text-align:center;padding:2rem;border:1px dashed #91a689;border-radius:1rem}
